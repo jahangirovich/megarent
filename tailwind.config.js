@@ -91,7 +91,17 @@ module.exports = {
     },
     screens:{
       'phone' : {'max' : '639px'},
-      'tablet' : {'max': '767px'},
+      'mobile' : {
+        'min': '481px',
+        'max' : '767px'
+      },
+      'tablet' : {
+        'min': '768px',
+        'max': '1024px'
+      },
+      'fromTabletToPhone':{
+        'max': '1024px'
+      },
       'laptop' : {'max': '1023px'},
       'desktop': {'max': '1279px'},
       'icon_stack': {

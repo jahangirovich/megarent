@@ -21,6 +21,11 @@ img{
 }
 .container-fluid{
     padding: rem(17px) rem(64px);
+    .second_section_block{
+        &>div{
+            margin-left: rem(10px);
+        }
+    }
 }
 .container-fluid-footer{
     padding: rem(48px) rem(175px);
@@ -67,5 +72,19 @@ header{
                 }
             }
         }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    $html-font-size: 14px;
+    html{
+        font-size: $html-font-size
+    }
+    .container-fluid-footer{
+        padding: rem(17px) rem(42px);
+    }
+    .container-fluid{
+        padding: rem(17px) rem(42px);
     }
 }

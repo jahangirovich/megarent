@@ -15,6 +15,10 @@ img{
   padding:1.0625rem 4rem
 }
 
+.container-fluid .second_section_block>div{
+  margin-left:.625rem
+}
+
 .container-fluid-footer{
   padding:3rem 10.9375rem
 }
@@ -53,4 +57,18 @@ header .bottom_block .flex a:after{
   left:0;
   bottom:0;
   background-color:white
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  html{
+    font-size:14px
+  }
+
+  .container-fluid-footer{
+    padding:1.0625rem 2.625rem
+  }
+
+  .container-fluid{
+    padding:1.0625rem 2.625rem
+  }
 }

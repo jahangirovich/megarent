@@ -31,6 +31,7 @@
     "postcss-cli": "^8.3.1",
     "slick-carousel": "^1.8.1",
     "smooth-scrollbar": "^8.5.2",
+    "swiper": "^6.7.5",
     "tailwindcss": "^2.2.4",
     "wowjs": "^1.1.3"
   }
